@@ -39,15 +39,15 @@ nav .listOptions ul {
   color: black;
   display: flex;
   flex-direction: column;
-  text-align: center;
   background-color: white;
   padding: 20px;
 }
 
 nav .listOptions ul li {
   list-style: none;
-  color: purple;
-  border: 2px solid purple;
+  cursor: pointer;
+  color: rgb(168 85 247);;
+  border: 2px solid rgb(168 85 247);;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -56,8 +56,6 @@ nav .listOptions ul li {
   margin: 4px;
   font-size: 20px;
   border-radius: 9999px;
-  width: 30%;
+  width: auto;
   font-weight: bold;
 }
-
-// text-center m-1 text-xl rounded-full w-auto font-bold
