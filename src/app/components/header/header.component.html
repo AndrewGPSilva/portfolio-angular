@@ -1,14 +1,14 @@
 <nav>
   <div class="first-part">
     <img src="../../../assets/imagens/navbar/logo.png" alt="Logo" />
-    <button class="btnMenu">
+    <button class="btnMenu" *ngIf="!btnActive" (click)="showMenu()">
       <fa-icon [icon]="iconMenu"></fa-icon>
     </button>
-    <button>
+    <button class="btnClosed" *ngIf="btnActive" (click)="showMenu()">
       <fa-icon [icon]="iconX"></fa-icon>
     </button>
   </div>
-  <div>
+  <div *ngIf="btnActive" class="listOptions">
     <ul>
       <li>Home <fa-icon [icon]="iconHome"></fa-icon></li>
       <li>Articles <fa-icon [icon]="iconProject"></fa-icon></li>

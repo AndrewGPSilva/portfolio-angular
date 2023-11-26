@@ -12,4 +12,10 @@ export class HeaderComponent {
   iconArticle = faNewspaper
   iconMenu = faBars
   iconX = faX
+
+  btnActive: Boolean = false;
+
+  showMenu(): void {
+    this.btnActive = !this.btnActive;
+  }
 }

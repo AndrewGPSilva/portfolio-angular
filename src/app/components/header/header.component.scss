@@ -21,4 +21,43 @@ nav .first-part .btnMenu {
   color: black;
   margin-right: 16px;
   font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
+
+nav .first-part .btnClosed {
+  color: black;
+  margin-right: 16px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+nav .listOptions ul {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}
+
+nav .listOptions ul li {
+  list-style: none;
+  color: purple;
+  border: 2px solid purple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin: 4px;
+  font-size: 20px;
+  border-radius: 9999px;
+  width: 30%;
+  font-weight: bold;
+}
+
+// text-center m-1 text-xl rounded-full w-auto font-bold
