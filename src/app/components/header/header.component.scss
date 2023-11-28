@@ -46,8 +46,7 @@ nav .listOptions ul {
 nav .listOptions ul li {
   list-style: none;
   cursor: pointer;
-  color: rgb(168 85 247);;
-  border: 2px solid rgb(168 85 247);;
+  color: rgb(168 85 247);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -58,4 +57,10 @@ nav .listOptions ul li {
   border-radius: 9999px;
   width: auto;
   font-weight: bold;
+}
+
+nav .listOptions ul li .borderInBtn {
+  border: 2px solid rgb(168 85 247);
+  padding: 8px;
+  border-radius: 9999px;
 }
